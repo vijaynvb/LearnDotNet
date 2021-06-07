@@ -48,7 +48,7 @@ namespace LearnCS
                 //Console.WriteLine("1-Create Employee\n2-Update Employee\n3-Delete Employee\n4-List Employees\n5-Search by ID\n6-End");
                 menuPrint(new empMenu());
 
-                menuPrint(new deptMenu());
+                //menuPrint(new deptMenu());
 
                 int option = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("------------------------------------------------------------------------------------------------------");
